@@ -1,4 +1,6 @@
-# Todoable - takehome test for Teachable
+# Todoable 
+
+Takehome test for Teachable
 
 ## Installation
 
@@ -28,3 +30,9 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/dshili
 
 
 ## Notes
+
+If not for ~2hr timebox I would have:
+- finished the wrapper on the rest of the routes
+- added more tests, used rspec/vcr, likely
+- organized the gem/lib more conventionally overall, looked for more places to reuse code ie base classes
+- likely not used faraday, chose mainly from familiarity - may have been more simple to just use NetHTTP or RestClient libs

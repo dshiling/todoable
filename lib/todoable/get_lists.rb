@@ -1,6 +1,6 @@
 module Todoable
   class GetLists
-    def perform(token)
+    def perform
       http.get '/lists'
     end
   end
